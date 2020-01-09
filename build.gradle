@@ -1,5 +1,5 @@
 // tested with gradle 6.0.1
-allprojects {
+allprojects { // 'allprojects' is here to replicate the 'apply plugin:java' to projectB and projectC
     apply plugin: 'java'
 }
 
@@ -9,7 +9,6 @@ repositories {
 
 dependencies {
     implementation project(':projectB')
-    implementation project(':projectC')
     testImplementation 'junit:junit:4.12'
 }
 

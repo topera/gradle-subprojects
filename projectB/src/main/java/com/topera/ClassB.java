@@ -7,7 +7,7 @@ public class ClassB {
     }
 
     public static String getValueBC() {
-        return "B";
+        return "B" + ClassC.getValue();
     }
 
 }

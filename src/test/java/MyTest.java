@@ -1,5 +1,5 @@
 import com.topera.ClassA;
-import com.topera.ClassC;
+import com.topera.ClassB;
 
 import org.junit.Test;
 
@@ -9,17 +9,17 @@ public class MyTest {
 
     @Test
     public void testA() {
-        assertEquals(ClassA.getValueA(), "A");
+        assertEquals("A", ClassA.getValueA());
     }
 
     @Test
     public void testAB() {
-        assertEquals(ClassA.getValueAB(), "AB");
+        assertEquals("AB", ClassA.getValueAB());
     }
 
     @Test
     public void testABC() {
-        assertEquals(ClassA.getValueAB() + ClassC.getValue(), "ABC");
+        assertEquals("ABC", ClassA.getValueA() + ClassB.getValueBC());
     }
 
 }

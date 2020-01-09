@@ -1,0 +1,13 @@
+// tested with gradle 6.0.1
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+}
+
+test.dependsOn cleanTest
+defaultTasks 'test'

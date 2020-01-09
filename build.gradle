@@ -1,5 +1,7 @@
 // tested with gradle 6.0.1
-apply plugin: 'java'
+allprojects {
+    apply plugin: 'java'
+}
 
 repositories {
     jcenter()

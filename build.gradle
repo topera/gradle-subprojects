@@ -6,6 +6,7 @@ repositories {
 }
 
 dependencies {
+    implementation project(':projectB')
     testImplementation 'junit:junit:4.12'
 }
 

@@ -10,4 +10,8 @@ public class ClassA {
         return "A" + ClassB.getValue();
     }
 
+    public static String getValueABC() {
+        return "A" + ClassB.getValueBC();
+    }
+
 }

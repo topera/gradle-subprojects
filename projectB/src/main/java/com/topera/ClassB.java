@@ -6,4 +6,8 @@ public class ClassB {
         return "B";
     }
 
+    public static String getValueBC() {
+        return "B";
+    }
+
 }
